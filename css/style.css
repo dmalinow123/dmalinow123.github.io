@@ -58,8 +58,9 @@ body {
 
 .hero h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 3rem;
-  letter-spacing: 2px;
+  font-size: clamp(2.5rem, 8vw, 5.5rem);
+  line-height: 1.1;
+  text-align: center;
   margin: 0;
 }
 
@@ -152,3 +153,4 @@ footer {
   text-align: center;
   background: var(--pink);
 }
+
